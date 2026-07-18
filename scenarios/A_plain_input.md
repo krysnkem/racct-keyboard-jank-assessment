@@ -29,14 +29,14 @@ https://github.com/user-attachments/assets/f05f1243-aa36-4cb2-927f-73baa4d90dbc
 
 Captured on the physical 23129RAA4G device (Android, debug build), three independent ways during a real repeated focus → keyboard-open → dismiss loop:
 
-**Frame jank (`diagnose_jank`, Flutter-side frame timing, 10s window):**
+**Frame jank (live Flutter frame-timing check, 10s window):**
 
 | Metric | Value | What this means |
 |---|---:|---|
 | Frames sampled | 660 | 10-second window of real keyboard toggles |
 | Janky frames (> 16.6ms) | 0 (0.0%) | Flutter's own frame timing reports zero jank here |
 
-**Native IME animation timing (timestamped `adb logcat`, independent of any Flutter/MCP tooling):**
+**Native IME animation timing (timestamped `adb logcat`, independent of any Flutter-side tooling):**
 
 | Cycle | Duration | Frame updates | Avg inter-frame gap | Max inter-frame gap | What this means |
 |---|---:|---:|---:|---:|---|

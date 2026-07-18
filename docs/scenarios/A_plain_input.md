@@ -21,7 +21,7 @@ Test whether keyboard show/hide is inherently janky with a plain input outside t
 
 ## Recording
 
-<video controls src="recordings/A_plain_input.mp4" style="max-height:528px;width:auto;"></video>
+<video controls src="../../recordings/A_plain_input.mp4" style="max-height:528px;width:auto;"></video>
 
 (Raw file also committed in [`recordings/`](../recordings/A_plain_input.mp4) for reference.)
 
@@ -29,14 +29,14 @@ Test whether keyboard show/hide is inherently janky with a plain input outside t
 
 Captured on the physical 23129RAA4G device (Android, debug build), three independent ways during a real repeated focus → keyboard-open → dismiss loop:
 
-**Frame jank (`diagnose_jank`, Flutter-side frame timing, 10s window):**
+**Frame jank (live Flutter frame-timing check, 10s window):**
 
 | Metric | Value | What this means |
 |---|---:|---|
 | Frames sampled | 660 | 10-second window of real keyboard toggles |
 | Janky frames (> 16.6ms) | 0 (0.0%) | Flutter's own frame timing reports zero jank here |
 
-**Native IME animation timing (timestamped `adb logcat`, independent of any Flutter/MCP tooling):**
+**Native IME animation timing (timestamped `adb logcat`, independent of any Flutter-side tooling):**
 
 | Cycle | Duration | Frame updates | Avg inter-frame gap | Max inter-frame gap | What this means |
 |---|---:|---:|---:|---:|---|

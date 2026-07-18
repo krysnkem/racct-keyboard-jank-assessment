@@ -50,7 +50,7 @@ At the capture's 120Hz refresh rate (8.33ms frame budget):
 | Total elapsed > 50ms | 153 / 2,197 | 6.96% | ~8x A2's share at this threshold |
 | Total elapsed > 100ms | 51 / 2,197 | 2.32% | ~10x A2's share — A3 has fewer bad frames overall, but a much longer, worse tail |
 
-(A short live `diagnose_jank` window reported 0 jank — didn't overlap the capture's heavier parts, same limitation as A2.)
+(A short live frame-timing check reported 0 jank — didn't overlap the capture's heavier parts, same limitation as A2.)
 
 **System-compositor confirmation (`dumpsys gfxinfo`):** clean, isolated capture — reset immediately before 3-4 rounds of keyboard toggles on an already-warm Input tab, nothing else happening:
 

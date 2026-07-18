@@ -28,7 +28,7 @@ No synthetic replacement UI is added for the shell itself. This scenario intenti
 
 ## Recording
 
-<video controls src="../recordings/B_real_shell.mp4" style="max-height:528px;width:auto;"></video>
+<video controls src="../../recordings/B_real_shell.mp4" style="max-height:528px;width:auto;"></video>
 
 (Raw file also committed in [`recordings/`](../recordings/B_real_shell.mp4) for reference.)
 

@@ -51,7 +51,7 @@ At the capture's 120Hz refresh rate (8.33ms frame budget):
 | Total elapsed > 50ms | 20 / 2,308 | 0.87% | Rare but present |
 | Total elapsed > 100ms | 5 / 2,308 | 0.22% | The extreme tail |
 
-(Two short live `diagnose_jank` windows reported 0 jank — they simply didn't overlap the heavier parts of this longer capture; the table above is the broader, more conservative dataset.)
+(Two short live frame-timing checks reported 0 jank — they simply didn't overlap the heavier parts of this longer capture; the table above is the broader, more conservative dataset.)
 
 **Rebuild evidence (exact 8.29-second DevTools window):**
 
