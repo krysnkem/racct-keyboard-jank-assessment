@@ -21,9 +21,7 @@ Test whether ordinary nested layout and a composer-style UI are enough to reprod
 
 ## Recording
 
-<video src="../recordings/A2_plain_layered.mp4" controls playsinline width="320"></video>
-
-(MP4, ~1.1MB, committed directly in this branch.)
+[▶ Watch recording (MP4, ~1.1MB)](../recordings/A2_plain_layered.mp4) — committed directly in this repo; opening it lands on GitHub's own file viewer, which plays it inline.
 
 ## Metrics
 

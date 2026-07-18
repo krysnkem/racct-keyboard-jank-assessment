@@ -21,9 +21,7 @@ Test whether `IndexedStack` and retained bottom-navigation structure alone repro
 
 ## Recording
 
-<video src="../recordings/A3_plain_indexed_stack.mp4" controls playsinline width="320"></video>
-
-(MP4, ~1.1MB, committed directly in this branch.)
+[▶ Watch recording (MP4, ~1.1MB)](../recordings/A3_plain_indexed_stack.mp4) — committed directly in this repo; opening it lands on GitHub's own file viewer, which plays it inline.
 
 ## Metrics
 

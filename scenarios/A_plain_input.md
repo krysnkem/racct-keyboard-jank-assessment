@@ -21,9 +21,7 @@ Test whether keyboard show/hide is inherently janky with a plain input outside t
 
 ## Recording
 
-<video src="../recordings/A_plain_input.mp4" controls playsinline width="320"></video>
-
-(MP4, ~0.7MB, committed directly in this branch.)
+[▶ Watch recording (MP4, ~0.7MB)](../recordings/A_plain_input.mp4) — committed directly in this repo; opening it lands on GitHub's own file viewer, which plays it inline.
 
 ## Metrics
 

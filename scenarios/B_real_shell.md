@@ -28,9 +28,7 @@ No synthetic replacement UI is added for the shell itself. This scenario intenti
 
 ## Recording
 
-<video src="../recordings/B_real_shell.mp4" controls playsinline width="320"></video>
-
-(MP4, ~2.2MB, committed directly in this branch.)
+[▶ Watch recording (MP4, ~2.2MB)](../recordings/B_real_shell.mp4) — committed directly in this repo; opening it lands on GitHub's own file viewer, which plays it inline.
 
 ## A different kind of capture than A/A2/A3
 
