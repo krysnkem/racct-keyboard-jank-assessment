@@ -790,12 +790,12 @@
 <li>No Marketplace grid or retained production tabs</li>
 </ul>
 <h2 id="recording">Recording<a class="headerlink" href="#recording" title="Permanent link">&para;</a></h2>
-<video controls src="recordings/A_plain_input.mp4" style="max-height:528px;width:auto;"></video>
+<video controls src="../../recordings/A_plain_input.mp4" style="max-height:528px;width:auto;"></video>
 
 <p>(Raw file also committed in <a href="../../recordings/A_plain_input.mp4"><code>recordings/</code></a> for reference.)</p>
 <h2 id="metrics">Metrics<a class="headerlink" href="#metrics" title="Permanent link">&para;</a></h2>
 <p>Captured on the physical 23129RAA4G device (Android, debug build), three independent ways during a real repeated focus → keyboard-open → dismiss loop:</p>
-<p><strong>Frame jank (<code>diagnose_jank</code>, Flutter-side frame timing, 10s window):</strong></p>
+<p><strong>Frame jank (live Flutter frame-timing check, 10s window):</strong></p>
 <table>
 <thead>
 <tr>
@@ -817,7 +817,7 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Native IME animation timing (timestamped <code>adb logcat</code>, independent of any Flutter/MCP tooling):</strong></p>
+<p><strong>Native IME animation timing (timestamped <code>adb logcat</code>, independent of any Flutter-side tooling):</strong></p>
 <table>
 <thead>
 <tr>
