@@ -1,0 +1,46 @@
+site_name: Keyboard Jank Assessment Report
+site_description: Evidence-ladder investigation showing the Racct keyboard-animation stutter is architectural, not a single widget bug.
+repo_url: https://github.com/krysnkem/racct-keyboard-jank-assessment
+repo_name: racct-keyboard-jank-assessment
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+
+nav:
+  - Report: index.md
+  - Scenarios:
+      - "A — Plain isolated input": scenarios/A_plain_input.md
+      - "A2 — Plain layered input": scenarios/A2_plain_layered.md
+      - "A3 — Plain IndexedStack + bottom nav": scenarios/A3_plain_indexed_stack.md
+      - "B — Real app shell": scenarios/B_real_shell.md
+  - Deep Dive:
+      - "Architecture findings": deep_dive/architecture_findings.md
+      - "Metrics methodology": deep_dive/metrics_methodology.md
+      - "CPU profile notes": deep_dive/cpu_profile_notes.md
+  - Evidence Index: evidence/index.md
+
+markdown_extensions:
+  - tables
+  - fenced_code
+  - admonition
+  - toc:
+      permalink: true
