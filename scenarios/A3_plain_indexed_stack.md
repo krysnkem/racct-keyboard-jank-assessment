@@ -21,7 +21,9 @@ Test whether `IndexedStack` and retained bottom-navigation structure alone repro
 
 ## Recording
 
-[▶ Watch recording (MP4, ~1.1MB)](../recordings/A3_plain_indexed_stack.mp4) — committed directly in this repo; opening it lands on GitHub's own file viewer, which plays it inline.
+https://github.com/user-attachments/assets/f68c5310-2c9b-4812-bbc9-1267be351ce2
+
+(Raw file also committed in [`recordings/`](../recordings/A3_plain_indexed_stack.mp4) for reference.)
 
 ## Metrics
 

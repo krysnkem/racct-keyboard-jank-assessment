@@ -21,7 +21,9 @@ Test whether keyboard show/hide is inherently janky with a plain input outside t
 
 ## Recording
 
-[▶ Watch recording (MP4, ~0.7MB)](../recordings/A_plain_input.mp4) — committed directly in this repo; opening it lands on GitHub's own file viewer, which plays it inline.
+https://github.com/user-attachments/assets/f05f1243-aa36-4cb2-927f-73baa4d90dbc
+
+(Raw file also committed in [`recordings/`](../recordings/A_plain_input.mp4) for reference.)
 
 ## Metrics
 

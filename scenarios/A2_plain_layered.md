@@ -21,7 +21,9 @@ Test whether ordinary nested layout and a composer-style UI are enough to reprod
 
 ## Recording
 
-[▶ Watch recording (MP4, ~1.1MB)](../recordings/A2_plain_layered.mp4) — committed directly in this repo; opening it lands on GitHub's own file viewer, which plays it inline.
+https://github.com/user-attachments/assets/526acd8e-dd13-43ae-ada0-b75135de84a0
+
+(Raw file also committed in [`recordings/`](../recordings/A2_plain_layered.mp4) for reference.)
 
 ## Metrics
 

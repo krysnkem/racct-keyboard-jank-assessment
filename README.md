@@ -8,13 +8,13 @@ This branch adds a small evidence lab so that's verifiable directly, without rea
 
 ## Evidence at a Glance
 
-Each scenario's recording is committed directly in [`recordings/`](recordings/) — click a link below to open it; GitHub's own file viewer plays it inline there.
+Each recording below plays inline directly on this page.
 
 ### A — Plain isolated input
 
 `/debug/keyboard-lab/plain` · no shell · no `IndexedStack` · no production widgets
 
-[▶ Watch recording](recordings/A_plain_input.mp4)
+https://github.com/user-attachments/assets/f05f1243-aa36-4cb2-927f-73baa4d90dbc
 
 **0.0% severe jank** (0/660 frames). Clean baseline — input/keyboard alone is not the problem.
 
@@ -22,7 +22,7 @@ Each scenario's recording is committed directly in [`recordings/`](recordings/) 
 
 `/debug/keyboard-lab/layered` · no shell · no `IndexedStack` · no production widgets
 
-[▶ Watch recording](recordings/A2_plain_layered.mp4)
+https://github.com/user-attachments/assets/526acd8e-dd13-43ae-ada0-b75135de84a0
 
 **Build p95 17.94ms · 46.79% janky** (`gfxinfo`). Ordinary layering adds real, modest cost — still no production signature.
 
@@ -30,7 +30,7 @@ Each scenario's recording is committed directly in [`recordings/`](recordings/) 
 
 `/debug/keyboard-lab/indexed-stack` · synthetic shell · `IndexedStack`: yes · no production widgets
 
-[▶ Watch recording](recordings/A3_plain_indexed_stack.mp4)
+https://github.com/user-attachments/assets/f68c5310-2c9b-4812-bbc9-1267be351ce2
 
 **Build p95 43.87ms · 67.63% janky** (`gfxinfo`, worst of the synthetics). A synthetic retained-tab shell alone reproduces **21%** of the real shell's Viewport/Sliver CPU signature — with zero production code.
 
@@ -38,7 +38,7 @@ Each scenario's recording is committed directly in [`recordings/`](recordings/) 
 
 `/` guided path · real shell · `IndexedStack` · production widgets
 
-[▶ Watch recording](recordings/B_real_shell.mp4)
+https://github.com/user-attachments/assets/2a26e9b0-95ea-4ddc-8ea9-2f48221a76e9
 
 **Build p95 360ms · 88.88% severe jank · worst frame 2.44s** — an order of magnitude worse than any synthetic scenario. Same Viewport/Sliver signature, now at 43%, plus real Marketplace code. Trigger location doesn't matter: Marketplace's own search bar is just as janky as Account's phone field. This session was organic, multi-screen production use — no debug-lab UI, no script beyond the guided steps above — so it stands as the production-flow evidence too.
 

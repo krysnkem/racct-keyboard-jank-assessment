@@ -28,7 +28,9 @@ No synthetic replacement UI is added for the shell itself. This scenario intenti
 
 ## Recording
 
-[▶ Watch recording (MP4, ~2.2MB)](../recordings/B_real_shell.mp4) — committed directly in this repo; opening it lands on GitHub's own file viewer, which plays it inline.
+https://github.com/user-attachments/assets/2a26e9b0-95ea-4ddc-8ea9-2f48221a76e9
+
+(Raw file also committed in [`recordings/`](../recordings/B_real_shell.mp4) for reference.)
 
 ## A different kind of capture than A/A2/A3
 
